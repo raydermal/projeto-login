@@ -50,3 +50,12 @@ section#login > div#formulario-right {
     display: block;
     padding: 10px;
 }
+
+#formulario-right h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario-right p {
+    font-size: 0.8em;
+}
