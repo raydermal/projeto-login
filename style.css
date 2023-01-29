@@ -23,7 +23,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
@@ -32,6 +31,7 @@ section#login {
     box-shadow: 0px 0px 10px rgb(28, 84, 240);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -40,6 +40,12 @@ section#login > div#imagem-left {
     background: #5f2c82 url(./img/tela-login.jpg);
     background-size: cover;
     height: 200px;
+}
+
+section#login > div#formulario-right {
+    display: block;
+    background-color: #8a68a0;
+    height: 500px;
 }
 
 
@@ -56,6 +62,8 @@ section#login > div#formulario-right {
 #formulario-right p {
     font-size: 0.8em;
 }
+
+
 
 form > div.campo {
     background-color: #960ff0;
@@ -124,8 +132,8 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-42px);
     margin-left: 44px;
+    transform: translateY(-42px);
     
    
    
